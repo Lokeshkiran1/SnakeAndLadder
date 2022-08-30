@@ -48,6 +48,7 @@
     <Compile Include="UCFiveSnakeAndLadder.cs" />
     <Compile Include="UCFourSnakeAndLadder.cs" />
     <Compile Include="UCOneSnakeAndLadder.cs" />
+    <Compile Include="UCSixSnakeAndLadder.cs" />
     <Compile Include="UCThreeSnakeAndLadder.cs" />
     <Compile Include="UCTwoSnakeAndLadder.cs" />
   </ItemGroup>

@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace SnakeAndLadder
 {
-    internal class Program
+    internal class UCTwoSnakeAndLadder
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("welcome to Snake and Ladder Game");
-        }
     }
 }

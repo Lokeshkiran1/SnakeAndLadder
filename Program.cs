@@ -11,7 +11,7 @@ namespace SnakeAndLadder
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to Snake and Ladder Game");
-            Console.WriteLine("Choose option\n1.Check position of player\n2.Rolling of Dice");
+            Console.WriteLine("Choose option\n1.Check position of player\n2.Rolling of Dice\n3.Rolling and ladder or snake");
             int choice=int.Parse(Console.ReadLine());
             switch(choice)
             {
@@ -20,6 +20,9 @@ namespace SnakeAndLadder
                     break;
                     case 2:
                     UCTwoSnakeAndLadder.ucTwo();
+                    break;
+                case 3:
+                    UCThreeSnakeAndLadder.ucThree();
                     break;
                     default:
                     Console.WriteLine("enter valid choice");

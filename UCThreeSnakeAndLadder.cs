@@ -29,7 +29,7 @@ namespace SnakeAndLadder
                 default:break;
 
             }
-            Console.WriteLine("Position of player at initial is " + positionOfPlayer + ", and rolled a die: " + dice);
+            Console.WriteLine("Position of player is " + positionOfPlayer + ", and rolled a die: " + dice);
         }
     }
 }
